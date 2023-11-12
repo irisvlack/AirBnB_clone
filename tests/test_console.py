@@ -195,20 +195,5 @@ class Test_Console(unittest.TestCase):
         output = out.getvalue().strip()
         self.assertEqual(output, "** value missing **")
 
-
-
-
-class TestBaseModel(unittest.TestCase):
-    """
-    Generic testing class for a template
-    Functions:
-    something()
-    """
-    def something(self):
-        """
-        Generic Something function
-        """
-        self.do_something()
-
 if __name__ == "__main__":
     unittest.main()
